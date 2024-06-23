@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB4959C2C2812BC000F0CF3 /* KotobaDailyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB4959B2C2812BC000F0CF3 /* KotobaDailyApp.swift */; };
+		CAB4959E2C2812BC000F0CF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB4959D2C2812BC000F0CF3 /* ContentView.swift */; };
+		CAB495A02C2812BC000F0CF3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB4959F2C2812BC000F0CF3 /* Item.swift */; };
+		CAB495A22C2812BD000F0CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB495A12C2812BD000F0CF3 /* Assets.xcassets */; };
+		CAB495A52C2812BD000F0CF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB495A42C2812BD000F0CF3 /* Preview Assets.xcassets */; };
+		CAB495AF2C2812BD000F0CF3 /* KotobaDailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495AE2C2812BD000F0CF3 /* KotobaDailyTests.swift */; };
+		CAB495B92C2812BD000F0CF3 /* KotobaDailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495B82C2812BD000F0CF3 /* KotobaDailyUITests.swift */; };
+		CAB495BB2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495BA2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift */; };
+		CAB495C82C2813DD000F0CF3 /* navbar_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495C72C2813DD000F0CF3 /* navbar_View.swift */; };
+		CAB495CA2C2813EF000F0CF3 /* homePage_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495C92C2813EF000F0CF3 /* homePage_View.swift */; };
+		CAB495CC2C2813FF000F0CF3 /* buttons_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495CB2C2813FF000F0CF3 /* buttons_View.swift */; };
+		CAB495CE2C281B2E000F0CF3 /* burgermenu_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495CD2C281B2E000F0CF3 /* burgermenu_View.swift */; };
+		CAB495D62C2863EB000F0CF3 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495D52C2863EB000F0CF3 /* Inter-SemiBold.otf */; };
+		CAB495D82C28641E000F0CF3 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495D72C28641E000F0CF3 /* Inter-Bold.otf */; };
+		CAB495DA2C286479000F0CF3 /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495D92C286479000F0CF3 /* FontStyles.swift */; };
+		CAB495DC2C286661000F0CF3 /* InterDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495DB2C286661000F0CF3 /* InterDisplay-Thin.otf */; };
+		CAB495DE2C2866C0000F0CF3 /* InterDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495DD2C2866C0000F0CF3 /* InterDisplay-Regular.otf */; };
+		CAB495E02C2881E1000F0CF3 /* DailyWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495DF2C2881E1000F0CF3 /* DailyWordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB495AB2C2812BD000F0CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB495902C2812BC000F0CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB495972C2812BC000F0CF3;
+			remoteInfo = KotobaDaily;
+		};
+		CAB495B52C2812BD000F0CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB495902C2812BC000F0CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB495972C2812BC000F0CF3;
+			remoteInfo = KotobaDaily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAB495982C2812BC000F0CF3 /* KotobaDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotobaDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB4959B2C2812BC000F0CF3 /* KotobaDailyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotobaDailyApp.swift; sourceTree = "<group>"; };
+		CAB4959D2C2812BC000F0CF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAB4959F2C2812BC000F0CF3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CAB495A12C2812BD000F0CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB495A42C2812BD000F0CF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAB495AA2C2812BD000F0CF3 /* KotobaDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotobaDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB495AE2C2812BD000F0CF3 /* KotobaDailyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotobaDailyTests.swift; sourceTree = "<group>"; };
+		CAB495B42C2812BD000F0CF3 /* KotobaDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotobaDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB495B82C2812BD000F0CF3 /* KotobaDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotobaDailyUITests.swift; sourceTree = "<group>"; };
+		CAB495BA2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotobaDailyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAB495C72C2813DD000F0CF3 /* navbar_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navbar_View.swift; sourceTree = "<group>"; };
+		CAB495C92C2813EF000F0CF3 /* homePage_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage_View.swift; sourceTree = "<group>"; };
+		CAB495CB2C2813FF000F0CF3 /* buttons_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttons_View.swift; sourceTree = "<group>"; };
+		CAB495CD2C281B2E000F0CF3 /* burgermenu_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgermenu_View.swift; sourceTree = "<group>"; };
+		CAB495D42C2863A2000F0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CAB495D52C2863EB000F0CF3 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		CAB495D72C28641E000F0CF3 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		CAB495D92C286479000F0CF3 /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
+		CAB495DB2C286661000F0CF3 /* InterDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterDisplay-Thin.otf"; sourceTree = "<group>"; };
+		CAB495DD2C2866C0000F0CF3 /* InterDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterDisplay-Regular.otf"; sourceTree = "<group>"; };
+		CAB495DF2C2881E1000F0CF3 /* DailyWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB495952C2812BC000F0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB495A72C2812BD000F0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB495B12C2812BD000F0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB4958F2C2812BC000F0CF3 = {
+			isa = PBXGroup;
+			children = (
+				CAB4959A2C2812BC000F0CF3 /* KotobaDaily */,
+				CAB495AD2C2812BD000F0CF3 /* KotobaDailyTests */,
+				CAB495B72C2812BD000F0CF3 /* KotobaDailyUITests */,
+				CAB495992C2812BC000F0CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB495992C2812BC000F0CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB495982C2812BC000F0CF3 /* KotobaDaily.app */,
+				CAB495AA2C2812BD000F0CF3 /* KotobaDailyTests.xctest */,
+				CAB495B42C2812BD000F0CF3 /* KotobaDailyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB4959A2C2812BC000F0CF3 /* KotobaDaily */ = {
+			isa = PBXGroup;
+			children = (
+				CAB495D42C2863A2000F0CF3 /* Info.plist */,
+				CAB4959B2C2812BC000F0CF3 /* KotobaDailyApp.swift */,
+				CAB4959D2C2812BC000F0CF3 /* ContentView.swift */,
+				CAB495DF2C2881E1000F0CF3 /* DailyWordView.swift */,
+				CAB495C72C2813DD000F0CF3 /* navbar_View.swift */,
+				CAB495C92C2813EF000F0CF3 /* homePage_View.swift */,
+				CAB495CB2C2813FF000F0CF3 /* buttons_View.swift */,
+				CAB495CD2C281B2E000F0CF3 /* burgermenu_View.swift */,
+				CAB4959F2C2812BC000F0CF3 /* Item.swift */,
+				CAB495CF2C286168000F0CF3 /* Fonts */,
+				CAB495A12C2812BD000F0CF3 /* Assets.xcassets */,
+				CAB495A32C2812BD000F0CF3 /* Preview Content */,
+				CAB495D92C286479000F0CF3 /* FontStyles.swift */,
+			);
+			path = KotobaDaily;
+			sourceTree = "<group>";
+		};
+		CAB495A32C2812BD000F0CF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAB495A42C2812BD000F0CF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAB495AD2C2812BD000F0CF3 /* KotobaDailyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB495AE2C2812BD000F0CF3 /* KotobaDailyTests.swift */,
+			);
+			path = KotobaDailyTests;
+			sourceTree = "<group>";
+		};
+		CAB495B72C2812BD000F0CF3 /* KotobaDailyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB495B82C2812BD000F0CF3 /* KotobaDailyUITests.swift */,
+				CAB495BA2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift */,
+			);
+			path = KotobaDailyUITests;
+			sourceTree = "<group>";
+		};
+		CAB495CF2C286168000F0CF3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CAB495D72C28641E000F0CF3 /* Inter-Bold.otf */,
+				CAB495D52C2863EB000F0CF3 /* Inter-SemiBold.otf */,
+				CAB495DB2C286661000F0CF3 /* InterDisplay-Thin.otf */,
+				CAB495DD2C2866C0000F0CF3 /* InterDisplay-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB495972C2812BC000F0CF3 /* KotobaDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB495BE2C2812BD000F0CF3 /* Build configuration list for PBXNativeTarget "KotobaDaily" */;
+			buildPhases = (
+				CAB495942C2812BC000F0CF3 /* Sources */,
+				CAB495952C2812BC000F0CF3 /* Frameworks */,
+				CAB495962C2812BC000F0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotobaDaily;
+			productName = KotobaDaily;
+			productReference = CAB495982C2812BC000F0CF3 /* KotobaDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB495A92C2812BD000F0CF3 /* KotobaDailyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB495C12C2812BD000F0CF3 /* Build configuration list for PBXNativeTarget "KotobaDailyTests" */;
+			buildPhases = (
+				CAB495A62C2812BD000F0CF3 /* Sources */,
+				CAB495A72C2812BD000F0CF3 /* Frameworks */,
+				CAB495A82C2812BD000F0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB495AC2C2812BD000F0CF3 /* PBXTargetDependency */,
+			);
+			name = KotobaDailyTests;
+			productName = KotobaDailyTests;
+			productReference = CAB495AA2C2812BD000F0CF3 /* KotobaDailyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAB495B32C2812BD000F0CF3 /* KotobaDailyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB495C42C2812BD000F0CF3 /* Build configuration list for PBXNativeTarget "KotobaDailyUITests" */;
+			buildPhases = (
+				CAB495B02C2812BD000F0CF3 /* Sources */,
+				CAB495B12C2812BD000F0CF3 /* Frameworks */,
+				CAB495B22C2812BD000F0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB495B62C2812BD000F0CF3 /* PBXTargetDependency */,
+			);
+			name = KotobaDailyUITests;
+			productName = KotobaDailyUITests;
+			productReference = CAB495B42C2812BD000F0CF3 /* KotobaDailyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB495902C2812BC000F0CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CAB495972C2812BC000F0CF3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CAB495A92C2812BD000F0CF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CAB495972C2812BC000F0CF3;
+					};
+					CAB495B32C2812BD000F0CF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CAB495972C2812BC000F0CF3;
+					};
+				};
+			};
+			buildConfigurationList = CAB495932C2812BC000F0CF3 /* Build configuration list for PBXProject "KotobaDaily" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB4958F2C2812BC000F0CF3;
+			productRefGroup = CAB495992C2812BC000F0CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB495972C2812BC000F0CF3 /* KotobaDaily */,
+				CAB495A92C2812BD000F0CF3 /* KotobaDailyTests */,
+				CAB495B32C2812BD000F0CF3 /* KotobaDailyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB495962C2812BC000F0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB495A52C2812BD000F0CF3 /* Preview Assets.xcassets in Resources */,
+				CAB495D82C28641E000F0CF3 /* Inter-Bold.otf in Resources */,
+				CAB495DE2C2866C0000F0CF3 /* InterDisplay-Regular.otf in Resources */,
+				CAB495D62C2863EB000F0CF3 /* Inter-SemiBold.otf in Resources */,
+				CAB495DC2C286661000F0CF3 /* InterDisplay-Thin.otf in Resources */,
+				CAB495A22C2812BD000F0CF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB495A82C2812BD000F0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB495B22C2812BD000F0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB495942C2812BC000F0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB495CE2C281B2E000F0CF3 /* burgermenu_View.swift in Sources */,
+				CAB495CA2C2813EF000F0CF3 /* homePage_View.swift in Sources */,
+				CAB495C82C2813DD000F0CF3 /* navbar_View.swift in Sources */,
+				CAB495CC2C2813FF000F0CF3 /* buttons_View.swift in Sources */,
+				CAB4959E2C2812BC000F0CF3 /* ContentView.swift in Sources */,
+				CAB495E02C2881E1000F0CF3 /* DailyWordView.swift in Sources */,
+				CAB495A02C2812BC000F0CF3 /* Item.swift in Sources */,
+				CAB495DA2C286479000F0CF3 /* FontStyles.swift in Sources */,
+				CAB4959C2C2812BC000F0CF3 /* KotobaDailyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB495A62C2812BD000F0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB495AF2C2812BD000F0CF3 /* KotobaDailyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB495B02C2812BD000F0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB495BB2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift in Sources */,
+				CAB495B92C2812BD000F0CF3 /* KotobaDailyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB495AC2C2812BD000F0CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB495972C2812BC000F0CF3 /* KotobaDaily */;
+			targetProxy = CAB495AB2C2812BD000F0CF3 /* PBXContainerItemProxy */;
+		};
+		CAB495B62C2812BD000F0CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB495972C2812BC000F0CF3 /* KotobaDaily */;
+			targetProxy = CAB495B52C2812BD000F0CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAB495BC2C2812BD000F0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB495BD2C2812BD000F0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB495BF2C2812BD000F0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KotobaDaily/Preview Content\"";
+				DEVELOPMENT_TEAM = J2M3KZM5B5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KotobaDaily/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.KotobaDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB495C02C2812BD000F0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KotobaDaily/Preview Content\"";
+				DEVELOPMENT_TEAM = J2M3KZM5B5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KotobaDaily/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.KotobaDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAB495C22C2812BD000F0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2M3KZM5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.KotobaDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotobaDaily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KotobaDaily";
+			};
+			name = Debug;
+		};
+		CAB495C32C2812BD000F0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2M3KZM5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.KotobaDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotobaDaily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KotobaDaily";
+			};
+			name = Release;
+		};
+		CAB495C52C2812BD000F0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2M3KZM5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.KotobaDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotobaDaily;
+			};
+			name = Debug;
+		};
+		CAB495C62C2812BD000F0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2M3KZM5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.KotobaDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotobaDaily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB495932C2812BC000F0CF3 /* Build configuration list for PBXProject "KotobaDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB495BC2C2812BD000F0CF3 /* Debug */,
+				CAB495BD2C2812BD000F0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB495BE2C2812BD000F0CF3 /* Build configuration list for PBXNativeTarget "KotobaDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB495BF2C2812BD000F0CF3 /* Debug */,
+				CAB495C02C2812BD000F0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB495C12C2812BD000F0CF3 /* Build configuration list for PBXNativeTarget "KotobaDailyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB495C22C2812BD000F0CF3 /* Debug */,
+				CAB495C32C2812BD000F0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB495C42C2812BD000F0CF3 /* Build configuration list for PBXNativeTarget "KotobaDailyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB495C52C2812BD000F0CF3 /* Debug */,
+				CAB495C62C2812BD000F0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB495902C2812BC000F0CF3 /* Project object */;
+}
