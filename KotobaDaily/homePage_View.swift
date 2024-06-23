@@ -9,7 +9,7 @@ import SwiftUI
 
 struct homePage_View: View {
     
-    var user_Name = "Brandon Shippy"
+    var user_Name = "Brandon Shippy!"
     var welcome_Text = "Welcome"
     
     var body: some View {
