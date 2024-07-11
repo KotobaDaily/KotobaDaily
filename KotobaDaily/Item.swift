@@ -2,7 +2,7 @@
 //  Item.swift
 //  KotobaDaily
 //
-//  Created by Brandon Shippy on 2024/06/23.
+//  Created by Brandon Shippy on 2024/06/23..
 //
 
 import Foundation

@@ -15,16 +15,19 @@
 		CAB495AF2C2812BD000F0CF3 /* KotobaDailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495AE2C2812BD000F0CF3 /* KotobaDailyTests.swift */; };
 		CAB495B92C2812BD000F0CF3 /* KotobaDailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495B82C2812BD000F0CF3 /* KotobaDailyUITests.swift */; };
 		CAB495BB2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495BA2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift */; };
-		CAB495C82C2813DD000F0CF3 /* navbar_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495C72C2813DD000F0CF3 /* navbar_View.swift */; };
-		CAB495CA2C2813EF000F0CF3 /* homePage_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495C92C2813EF000F0CF3 /* homePage_View.swift */; };
-		CAB495CC2C2813FF000F0CF3 /* buttons_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495CB2C2813FF000F0CF3 /* buttons_View.swift */; };
-		CAB495CE2C281B2E000F0CF3 /* burgermenu_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495CD2C281B2E000F0CF3 /* burgermenu_View.swift */; };
 		CAB495D62C2863EB000F0CF3 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495D52C2863EB000F0CF3 /* Inter-SemiBold.otf */; };
 		CAB495D82C28641E000F0CF3 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495D72C28641E000F0CF3 /* Inter-Bold.otf */; };
 		CAB495DA2C286479000F0CF3 /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495D92C286479000F0CF3 /* FontStyles.swift */; };
 		CAB495DC2C286661000F0CF3 /* InterDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495DB2C286661000F0CF3 /* InterDisplay-Thin.otf */; };
 		CAB495DE2C2866C0000F0CF3 /* InterDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB495DD2C2866C0000F0CF3 /* InterDisplay-Regular.otf */; };
 		CAB495E02C2881E1000F0CF3 /* DailyWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495DF2C2881E1000F0CF3 /* DailyWordView.swift */; };
+		CAB495E42C2971F4000F0CF3 /* toptext_Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495E32C2971F4000F0CF3 /* toptext_Display.swift */; };
+		CAB495E62C297327000F0CF3 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495E52C297327000F0CF3 /* ArticleView.swift */; };
+		CAB495E82C297333000F0CF3 /* KanjiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495E72C297333000F0CF3 /* KanjiView.swift */; };
+		CAB495EA2C29733E000F0CF3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495E92C29733E000F0CF3 /* SettingsView.swift */; };
+		CAB495EC2C297350000F0CF3 /* YesterdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495EB2C297350000F0CF3 /* YesterdayView.swift */; };
+		CAE3AD5B2C2AD43600CA01A8 /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3AD5A2C2AD43600CA01A8 /* APITests.swift */; };
+		CAE3AD5D2C2AD50C00CA01A8 /* APIStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3AD5C2C2AD50C00CA01A8 /* APIStructs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +59,6 @@
 		CAB495B42C2812BD000F0CF3 /* KotobaDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotobaDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB495B82C2812BD000F0CF3 /* KotobaDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotobaDailyUITests.swift; sourceTree = "<group>"; };
 		CAB495BA2C2812BD000F0CF3 /* KotobaDailyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotobaDailyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CAB495C72C2813DD000F0CF3 /* navbar_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navbar_View.swift; sourceTree = "<group>"; };
-		CAB495C92C2813EF000F0CF3 /* homePage_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage_View.swift; sourceTree = "<group>"; };
-		CAB495CB2C2813FF000F0CF3 /* buttons_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttons_View.swift; sourceTree = "<group>"; };
-		CAB495CD2C281B2E000F0CF3 /* burgermenu_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgermenu_View.swift; sourceTree = "<group>"; };
 		CAB495D42C2863A2000F0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CAB495D52C2863EB000F0CF3 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
 		CAB495D72C28641E000F0CF3 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
@@ -67,6 +66,13 @@
 		CAB495DB2C286661000F0CF3 /* InterDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterDisplay-Thin.otf"; sourceTree = "<group>"; };
 		CAB495DD2C2866C0000F0CF3 /* InterDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterDisplay-Regular.otf"; sourceTree = "<group>"; };
 		CAB495DF2C2881E1000F0CF3 /* DailyWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWordView.swift; sourceTree = "<group>"; };
+		CAB495E32C2971F4000F0CF3 /* toptext_Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toptext_Display.swift; sourceTree = "<group>"; };
+		CAB495E52C297327000F0CF3 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		CAB495E72C297333000F0CF3 /* KanjiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiView.swift; sourceTree = "<group>"; };
+		CAB495E92C29733E000F0CF3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CAB495EB2C297350000F0CF3 /* YesterdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesterdayView.swift; sourceTree = "<group>"; };
+		CAE3AD5A2C2AD43600CA01A8 /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
+		CAE3AD5C2C2AD50C00CA01A8 /* APIStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,11 +126,14 @@
 				CAB495D42C2863A2000F0CF3 /* Info.plist */,
 				CAB4959B2C2812BC000F0CF3 /* KotobaDailyApp.swift */,
 				CAB4959D2C2812BC000F0CF3 /* ContentView.swift */,
+				CAB495E32C2971F4000F0CF3 /* toptext_Display.swift */,
 				CAB495DF2C2881E1000F0CF3 /* DailyWordView.swift */,
-				CAB495C72C2813DD000F0CF3 /* navbar_View.swift */,
-				CAB495C92C2813EF000F0CF3 /* homePage_View.swift */,
-				CAB495CB2C2813FF000F0CF3 /* buttons_View.swift */,
-				CAB495CD2C281B2E000F0CF3 /* burgermenu_View.swift */,
+				CAB495E72C297333000F0CF3 /* KanjiView.swift */,
+				CAB495E52C297327000F0CF3 /* ArticleView.swift */,
+				CAB495E92C29733E000F0CF3 /* SettingsView.swift */,
+				CAB495EB2C297350000F0CF3 /* YesterdayView.swift */,
+				CAE3AD5A2C2AD43600CA01A8 /* APITests.swift */,
+				CAE3AD5C2C2AD50C00CA01A8 /* APIStructs.swift */,
 				CAB4959F2C2812BC000F0CF3 /* Item.swift */,
 				CAB495CF2C286168000F0CF3 /* Fonts */,
 				CAB495A12C2812BD000F0CF3 /* Assets.xcassets */,
@@ -304,15 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB495CE2C281B2E000F0CF3 /* burgermenu_View.swift in Sources */,
-				CAB495CA2C2813EF000F0CF3 /* homePage_View.swift in Sources */,
-				CAB495C82C2813DD000F0CF3 /* navbar_View.swift in Sources */,
-				CAB495CC2C2813FF000F0CF3 /* buttons_View.swift in Sources */,
+				CAE3AD5B2C2AD43600CA01A8 /* APITests.swift in Sources */,
 				CAB4959E2C2812BC000F0CF3 /* ContentView.swift in Sources */,
 				CAB495E02C2881E1000F0CF3 /* DailyWordView.swift in Sources */,
+				CAB495E82C297333000F0CF3 /* KanjiView.swift in Sources */,
+				CAB495EA2C29733E000F0CF3 /* SettingsView.swift in Sources */,
+				CAE3AD5D2C2AD50C00CA01A8 /* APIStructs.swift in Sources */,
 				CAB495A02C2812BC000F0CF3 /* Item.swift in Sources */,
 				CAB495DA2C286479000F0CF3 /* FontStyles.swift in Sources */,
 				CAB4959C2C2812BC000F0CF3 /* KotobaDailyApp.swift in Sources */,
+				CAB495EC2C297350000F0CF3 /* YesterdayView.swift in Sources */,
+				CAB495E62C297327000F0CF3 /* ArticleView.swift in Sources */,
+				CAB495E42C2971F4000F0CF3 /* toptext_Display.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

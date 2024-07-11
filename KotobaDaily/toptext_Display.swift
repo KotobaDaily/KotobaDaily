@@ -9,7 +9,11 @@ import SwiftUI
 
 struct toptext_Display: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("Kotoba Daily")
+                .font(.generalTextLarge)
+                .padding(.all, 16)
+        }
     }
 }
 
