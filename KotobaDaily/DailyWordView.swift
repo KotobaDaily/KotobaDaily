@@ -31,10 +31,10 @@ struct DailyWordView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             
             Spacer()
+        }
                 .onAppear{
                     pullWords.fetchWords()
                 }
-        }
     }
 }
 

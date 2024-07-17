@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WOTD: Codable {
+struct WOTD: Codable { // Make sure these values match the JSON Entry fields
     let Word: String
     let Example: String
     let Definition: String

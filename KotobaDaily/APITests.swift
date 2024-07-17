@@ -19,15 +19,20 @@ class WOTDViewModel: ObservableObject {
     @Published var example = "寝不足の影響がではじめた。"
     @Published var furigana = "ねぶそく"
     
+    private var hasFetched = false // Makes it so it only checks ONCE. Bandaid fix for now, requires user to restart
+    
     func fetchWords() { // function for getting information from the URL
+        guard !hasFetched else { return }
+                hasFetched = true
+        
         guard let url = URL(string: "http://localhost:8000/words/") else { // let keyword is a const
             print("Invalid URL")
             return
         }
         
         cancellable = URLSession.shared.dataTaskPublisher(for: url) // since we define it as cancellable we can cancel if needed
-            .map { $0.data }
-            .decode(type: [WOTD].self, decoder: JSONDecoder())
+            .map { $0.data } // Array of JSON Data
+            .decode(type: [WOTD].self, decoder: JSONDecoder()) // WOTD being our struct
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { completion in
                 switch completion {
@@ -47,6 +52,11 @@ class WOTDViewModel: ObservableObject {
                 
             })
     }
+    
+    func refreshWords() { // USE THIS WHEN WANTING TO LET THEM MAKE ANOTHER API CALL
+            hasFetched = false
+            fetchWords()
+        }
     
     deinit {
         cancellable?.cancel() // Prevents memory leak
