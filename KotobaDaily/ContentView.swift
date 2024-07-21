@@ -8,23 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var settings = SettingOptions() // Can just read classes across files ig, this is in SettingsView.swift
+    @State private var selectedTab = 1 // State property to manage the selected tab
     var body: some View {
-        
-        toptext_Display()
-        
-        Spacer()
-        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
-            YesterdayView().tabItem { Image("arrow.left.circle")}.tag(3)
-            
-            KanjiView().tabItem { Image("character") }.tag(2)
-            
-            DailyWordView().tabItem { Image("book.closed") }.tag(1)
-            
-            ArticleView().tabItem { Image("newspaper") }.tag(4)
-            
-            SettingsView().tabItem { Image("gear") }.tag(5)
+            VStack {
+                toptext_Display()
+                
+                Rectangle()
+                    .fill(Color("LineColor"))
+                    .frame(width: 450, height: 3, alignment: .center)
+                
+                Spacer()
+                
+                TabView(selection: $selectedTab) { // Bind the selection to the state property
+                    YesterdayView()
+                        .tabItem { Image(systemName: "arrow.left.circle") }
+                        .tag(2)
+                    
+                    DailyWordView()
+                        .tabItem { Image(systemName: "book.closed") }
+                        .tag(1)
+                    
+                    ArticleView()
+                        .tabItem { Image(systemName: "newspaper") }
+                        .tag(3)
+                    
+                    SettingsView()
+                        .tabItem { Image(systemName: "gear") }
+                        .tag(4)
+                }
+                .preferredColorScheme(settings.dark ? .dark : .light)
+            }
+            .environmentObject(settings) // Pass the settings object to the environment so our TabView can know what page to be on
         }
-    }
 }
 
 

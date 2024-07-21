@@ -31,7 +31,9 @@ struct DailyWordView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             
             Spacer()
+            // If you need a line above the nav bar.. here is the spot
         }
+        
                 .onAppear{
                     pullWords.fetchWords()
                 }

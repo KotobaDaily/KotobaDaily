@@ -12,7 +12,7 @@ struct toptext_Display: View {
         HStack {
             Text("Kotoba Daily")
                 .font(.generalTextLarge)
-                .padding(.all, 16)
+                .padding([.top, .leading, .trailing], 16)
         }
     }
 }

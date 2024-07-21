@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @StateObject var settingOptions = SettingOptions()
     var body: some View {
-        Text("Settings Placeholder")
+        NavigationView {
+            
+            Form {
+                
+                Section(header: Text("Display"),
+                        footer: Text("Toggles dark mode on and off")) {
+                            
+                    Toggle("Dark mode", isOn: settingOptions.$dark)
+                    
+                }
+            }
+            .navigationTitle("Settings")
+        }
     }
 }
 

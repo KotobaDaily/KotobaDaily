@@ -28,6 +28,7 @@
 		CAB495EC2C297350000F0CF3 /* YesterdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB495EB2C297350000F0CF3 /* YesterdayView.swift */; };
 		CAE3AD5B2C2AD43600CA01A8 /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3AD5A2C2AD43600CA01A8 /* APITests.swift */; };
 		CAE3AD5D2C2AD50C00CA01A8 /* APIStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3AD5C2C2AD50C00CA01A8 /* APIStructs.swift */; };
+		CAF69EE22C4CF08E00690685 /* settingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF69EE12C4CF08E00690685 /* settingClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		CAB495EB2C297350000F0CF3 /* YesterdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesterdayView.swift; sourceTree = "<group>"; };
 		CAE3AD5A2C2AD43600CA01A8 /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
 		CAE3AD5C2C2AD50C00CA01A8 /* APIStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStructs.swift; sourceTree = "<group>"; };
+		CAF69EE12C4CF08E00690685 /* settingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				CAB4959A2C2812BC000F0CF3 /* KotobaDaily */,
 				CAB495AD2C2812BD000F0CF3 /* KotobaDailyTests */,
+				CAF69EE02C4CDDA400690685 /* Old_Version */,
 				CAB495B72C2812BD000F0CF3 /* KotobaDailyUITests */,
 				CAB495992C2812BC000F0CF3 /* Products */,
 			);
@@ -128,13 +131,13 @@
 				CAB4959D2C2812BC000F0CF3 /* ContentView.swift */,
 				CAB495E32C2971F4000F0CF3 /* toptext_Display.swift */,
 				CAB495DF2C2881E1000F0CF3 /* DailyWordView.swift */,
-				CAB495E72C297333000F0CF3 /* KanjiView.swift */,
 				CAB495E52C297327000F0CF3 /* ArticleView.swift */,
 				CAB495E92C29733E000F0CF3 /* SettingsView.swift */,
 				CAB495EB2C297350000F0CF3 /* YesterdayView.swift */,
 				CAE3AD5A2C2AD43600CA01A8 /* APITests.swift */,
 				CAE3AD5C2C2AD50C00CA01A8 /* APIStructs.swift */,
 				CAB4959F2C2812BC000F0CF3 /* Item.swift */,
+				CAF69EE12C4CF08E00690685 /* settingClass.swift */,
 				CAB495CF2C286168000F0CF3 /* Fonts */,
 				CAB495A12C2812BD000F0CF3 /* Assets.xcassets */,
 				CAB495A32C2812BD000F0CF3 /* Preview Content */,
@@ -177,6 +180,14 @@
 				CAB495DD2C2866C0000F0CF3 /* InterDisplay-Regular.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CAF69EE02C4CDDA400690685 /* Old_Version */ = {
+			isa = PBXGroup;
+			children = (
+				CAB495E72C297333000F0CF3 /* KanjiView.swift */,
+			);
+			path = Old_Version;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +327,7 @@
 				CAE3AD5B2C2AD43600CA01A8 /* APITests.swift in Sources */,
 				CAB4959E2C2812BC000F0CF3 /* ContentView.swift in Sources */,
 				CAB495E02C2881E1000F0CF3 /* DailyWordView.swift in Sources */,
+				CAF69EE22C4CF08E00690685 /* settingClass.swift in Sources */,
 				CAB495E82C297333000F0CF3 /* KanjiView.swift in Sources */,
 				CAB495EA2C29733E000F0CF3 /* SettingsView.swift in Sources */,
 				CAE3AD5D2C2AD50C00CA01A8 /* APIStructs.swift in Sources */,
