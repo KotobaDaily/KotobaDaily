@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6AD1EDBE5C593BE66105F1C2 /* Pods_KotobaDaily_KotobaDailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB77D4DEB5A7BB5E1B5CE7 /* Pods_KotobaDaily_KotobaDailyUITests.framework */; };
-		CA67E79E2C690450000E03BB /* AuthCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA67E79D2C690450000E03BB /* AuthCode.plist */; };
 		CA67E7A02C6906B9000E03BB /* AppDelegateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67E79F2C6906B9000E03BB /* AppDelegateClass.swift */; };
+		CA67E7A32C692899000E03BB /* AuthCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7A22C692899000E03BB /* AuthCode.plist */; };
 		CA80565A2C68F5D4002A8A4C /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8056592C68F5D4002A8A4C /* FavoriteView.swift */; };
 		CA80565C2C68FBAA002A8A4C /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA80565B2C68FBAA002A8A4C /* GoogleSignInButton.swift */; };
 		CAA3356A2C5A526500EA9700 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA335692C5A526500EA9700 /* GameView.swift */; };
@@ -77,8 +77,8 @@
 		7A29F21C54BFA995147C9947 /* Pods_KotobaDaily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotobaDaily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CB77D4DEB5A7BB5E1B5CE7 /* Pods_KotobaDaily_KotobaDailyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotobaDaily_KotobaDailyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C844B7A4800D05562F6A3996 /* Pods-KotobaDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaDaily.debug.xcconfig"; path = "Target Support Files/Pods-KotobaDaily/Pods-KotobaDaily.debug.xcconfig"; sourceTree = "<group>"; };
-		CA67E79D2C690450000E03BB /* AuthCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AuthCode.plist; sourceTree = "<group>"; };
 		CA67E79F2C6906B9000E03BB /* AppDelegateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegateClass.swift; path = /Users/brandon/Desktop/Programming/KotobaDaily/KotobaDaily/AppDelegateClass.swift; sourceTree = "<absolute>"; };
+		CA67E7A22C692899000E03BB /* AuthCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AuthCode.plist; sourceTree = "<group>"; };
 		CA8056592C68F5D4002A8A4C /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		CA80565B2C68FBAA002A8A4C /* GoogleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
 		CAA335692C5A526500EA9700 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 		CAB4959A2C2812BC000F0CF3 /* KotobaDaily */ = {
 			isa = PBXGroup;
 			children = (
-				CA67E79D2C690450000E03BB /* AuthCode.plist */,
+				CA67E7A22C692899000E03BB /* AuthCode.plist */,
 				CAB495D42C2863A2000F0CF3 /* Info.plist */,
 				CAB4959B2C2812BC000F0CF3 /* KotobaDailyApp.swift */,
 				CAB4959D2C2812BC000F0CF3 /* ContentView.swift */,
@@ -373,12 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB495A52C2812BD000F0CF3 /* Preview Assets.xcassets in Resources */,
-				CA67E79E2C690450000E03BB /* AuthCode.plist in Resources */,
 				CAB495D82C28641E000F0CF3 /* Inter-Bold.otf in Resources */,
 				CAB495DE2C2866C0000F0CF3 /* InterDisplay-Regular.otf in Resources */,
 				CAB495D62C2863EB000F0CF3 /* Inter-SemiBold.otf in Resources */,
 				CAB495DC2C286661000F0CF3 /* InterDisplay-Thin.otf in Resources */,
 				CAB495A22C2812BD000F0CF3 /* Assets.xcassets in Resources */,
+				CA67E7A32C692899000E03BB /* AuthCode.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
