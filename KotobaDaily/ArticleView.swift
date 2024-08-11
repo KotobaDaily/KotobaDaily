@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-struct ArticleView: View {
+struct GameView: View {
     
     var body: some View {
         Text("Article Test")
@@ -16,5 +16,5 @@ struct ArticleView: View {
 }
 
 #Preview {
-    ArticleView()
+    GameView()
 }

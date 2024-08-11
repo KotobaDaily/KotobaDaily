@@ -29,8 +29,8 @@ struct ContentView: View {
                         .tabItem { Image(systemName: "book.closed") }
                         .tag(1)
                     
-                    ArticleView()
-                        .tabItem { Image(systemName: "newspaper") }
+                    FavoriteView()
+                        .tabItem { Image(systemName: "star") }
                         .tag(3)
                     
                     SettingsView()

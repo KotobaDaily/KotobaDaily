@@ -31,6 +31,9 @@ struct DailyWordView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             
             Spacer()
+            Button("Favorite", systemImage: "star") {
+                let pog = 0;
+            }
             // If you need a line above the nav bar.. here is the spot
         }
         

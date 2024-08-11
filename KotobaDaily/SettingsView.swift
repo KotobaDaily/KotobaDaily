@@ -18,10 +18,12 @@ struct SettingsView: View {
                         footer: Text("Toggles dark mode on and off")) {
                             
                     Toggle("Dark mode", isOn: settingOptions.$dark)
-                    
+                }
+                Section(header: Text("Account")) {
+                        GoogleSignInButtonView()
                 }
             }
-            .navigationTitle("Settings")
+            //.navigationTitle("Settings")
         }
     }
 }

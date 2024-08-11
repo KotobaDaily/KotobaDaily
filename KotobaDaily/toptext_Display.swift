@@ -13,6 +13,7 @@ struct toptext_Display: View {
             Text("Kotoba Daily")
                 .font(.generalTextLarge)
                 .padding([.top, .leading, .trailing], 16)
+                .foregroundColor(Color("LineColor"))
         }
     }
 }
