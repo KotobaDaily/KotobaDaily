@@ -67,5 +67,6 @@ struct GoogleSignInButtonView: View {
     private func signOut() {
         GIDSignIn.sharedInstance.signOut()
         user = nil
+        currentUserID = ""
     }
 }

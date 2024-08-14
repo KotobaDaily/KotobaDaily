@@ -16,7 +16,7 @@ class WOTDViewModel: ObservableObject {
     
     @Published var wordoftheday = "寝不足" // Define variables to hold the fetched information from. @Published makes it update.
     @Published var definition = "lack of sleep; insufficient sleep"
-    @Published var example = "寝不足の影響がではじめた。"
+    @Published var example = "寝不足の影響がではじめた"
     @Published var furigana = "ねぶそく"
     
     private var hasFetched = false // Makes it so it only checks ONCE. Bandaid fix for now, requires user to restart
@@ -113,5 +113,36 @@ class yesterdayWOTDViewModel: ObservableObject {
     
     deinit {
         cancellable?.cancel() // Prevents memory leak
+    }
+}
+
+class FavoritesViewModel: ObservableObject {
+    @Published var favorites: [WOTD] = [] // Use WOTD instead of FavoritesList
+    private var cancellable: AnyCancellable?
+
+    func fetchFavorites(for userID: String) {
+        guard let url = URL(string: "http://localhost:8000/favorites/?userID=\(userID)") else {
+            print("Invalid URL for fetching favorites")
+            return
+        }
+        
+        cancellable = URLSession.shared.dataTaskPublisher(for: url)
+            .map { $0.data }
+            .decode(type: [WOTD].self, decoder: JSONDecoder()) // Decode as WOTD
+            .receive(on: DispatchQueue.main)
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .finished:
+                    break
+                case .failure(let error):
+                    print("Error fetching favorites: \(error)")
+                }
+            }, receiveValue: { response in
+                self.favorites = response
+            })
+    }
+
+    deinit {
+        cancellable?.cancel()
     }
 }

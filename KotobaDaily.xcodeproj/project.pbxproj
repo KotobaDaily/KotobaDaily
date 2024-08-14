@@ -9,7 +9,21 @@
 /* Begin PBXBuildFile section */
 		6AD1EDBE5C593BE66105F1C2 /* Pods_KotobaDaily_KotobaDailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB77D4DEB5A7BB5E1B5CE7 /* Pods_KotobaDaily_KotobaDailyUITests.framework */; };
 		CA67E7A02C6906B9000E03BB /* AppDelegateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67E79F2C6906B9000E03BB /* AppDelegateClass.swift */; };
-		CA67E7A32C692899000E03BB /* AuthCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7A22C692899000E03BB /* AuthCode.plist */; };
+		CA67E7A52C692903000E03BB /* AuthCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7A42C692903000E03BB /* AuthCode.plist */; };
+		CA67E7B42C6AEADA000E03BB /* NewYorkMedium-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7B02C6AE0E4000E03BB /* NewYorkMedium-MediumItalic.otf */; };
+		CA67E7B52C6AEADD000E03BB /* NewYorkMedium-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7B12C6AE0E5000E03BB /* NewYorkMedium-Black.otf */; };
+		CA67E7B62C6AEAE4000E03BB /* Gen Jyuu Gothic Monospace Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7A62C6A40AB000E03BB /* Gen Jyuu Gothic Monospace Medium.ttf */; };
+		CA67E7B72C6AEAE6000E03BB /* Gen Jyuu Gothic Monospace Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7A72C6A40B5000E03BB /* Gen Jyuu Gothic Monospace Light.ttf */; };
+		CA67E7B82C6AEAE9000E03BB /* NewYorkMedium-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7AF2C6AE0E4000E03BB /* NewYorkMedium-SemiboldItalic.otf */; };
+		CA67E7B92C6AEAEC000E03BB /* NewYorkMedium-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7AB2C6AE0E4000E03BB /* NewYorkMedium-Semibold.otf */; };
+		CA67E7BA2C6AEAEE000E03BB /* NewYorkMedium-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7AD2C6AE0E4000E03BB /* NewYorkMedium-RegularItalic.otf */; };
+		CA67E7BB2C6AEAF0000E03BB /* NewYorkMedium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7AA2C6AE0E4000E03BB /* NewYorkMedium-Regular.otf */; };
+		CA67E7BC2C6AEAF4000E03BB /* NewYorkMedium-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7AC2C6AE0E4000E03BB /* NewYorkMedium-Medium.otf */; };
+		CA67E7BD2C6AEAF7000E03BB /* NewYorkMedium-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7AE2C6AE0E4000E03BB /* NewYorkMedium-HeavyItalic.otf */; };
+		CA67E7BE2C6AEAFB000E03BB /* NewYorkMedium-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7B32C6AE0E5000E03BB /* NewYorkMedium-Heavy.otf */; };
+		CA67E7BF2C6AEAFD000E03BB /* NewYorkMedium-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7A92C6AE0E4000E03BB /* NewYorkMedium-BoldItalic.otf */; };
+		CA67E7C02C6AEB01000E03BB /* NewYorkMedium-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7A82C6AE0E4000E03BB /* NewYorkMedium-Bold.otf */; };
+		CA67E7C12C6AEB03000E03BB /* NewYorkMedium-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA67E7B22C6AE0E5000E03BB /* NewYorkMedium-BlackItalic.otf */; };
 		CA80565A2C68F5D4002A8A4C /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8056592C68F5D4002A8A4C /* FavoriteView.swift */; };
 		CA80565C2C68FBAA002A8A4C /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA80565B2C68FBAA002A8A4C /* GoogleSignInButton.swift */; };
 		CAA3356A2C5A526500EA9700 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA335692C5A526500EA9700 /* GameView.swift */; };
@@ -78,7 +92,21 @@
 		B3CB77D4DEB5A7BB5E1B5CE7 /* Pods_KotobaDaily_KotobaDailyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotobaDaily_KotobaDailyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C844B7A4800D05562F6A3996 /* Pods-KotobaDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaDaily.debug.xcconfig"; path = "Target Support Files/Pods-KotobaDaily/Pods-KotobaDaily.debug.xcconfig"; sourceTree = "<group>"; };
 		CA67E79F2C6906B9000E03BB /* AppDelegateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegateClass.swift; path = /Users/brandon/Desktop/Programming/KotobaDaily/KotobaDaily/AppDelegateClass.swift; sourceTree = "<absolute>"; };
-		CA67E7A22C692899000E03BB /* AuthCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AuthCode.plist; sourceTree = "<group>"; };
+		CA67E7A42C692903000E03BB /* AuthCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AuthCode.plist; sourceTree = "<group>"; };
+		CA67E7A62C6A40AB000E03BB /* Gen Jyuu Gothic Monospace Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gen Jyuu Gothic Monospace Medium.ttf"; sourceTree = "<group>"; };
+		CA67E7A72C6A40B5000E03BB /* Gen Jyuu Gothic Monospace Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gen Jyuu Gothic Monospace Light.ttf"; sourceTree = "<group>"; };
+		CA67E7A82C6AE0E4000E03BB /* NewYorkMedium-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-Bold.otf"; sourceTree = "<group>"; };
+		CA67E7A92C6AE0E4000E03BB /* NewYorkMedium-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-BoldItalic.otf"; sourceTree = "<group>"; };
+		CA67E7AA2C6AE0E4000E03BB /* NewYorkMedium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-Regular.otf"; sourceTree = "<group>"; };
+		CA67E7AB2C6AE0E4000E03BB /* NewYorkMedium-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-Semibold.otf"; sourceTree = "<group>"; };
+		CA67E7AC2C6AE0E4000E03BB /* NewYorkMedium-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-Medium.otf"; sourceTree = "<group>"; };
+		CA67E7AD2C6AE0E4000E03BB /* NewYorkMedium-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-RegularItalic.otf"; sourceTree = "<group>"; };
+		CA67E7AE2C6AE0E4000E03BB /* NewYorkMedium-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-HeavyItalic.otf"; sourceTree = "<group>"; };
+		CA67E7AF2C6AE0E4000E03BB /* NewYorkMedium-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		CA67E7B02C6AE0E4000E03BB /* NewYorkMedium-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-MediumItalic.otf"; sourceTree = "<group>"; };
+		CA67E7B12C6AE0E5000E03BB /* NewYorkMedium-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-Black.otf"; sourceTree = "<group>"; };
+		CA67E7B22C6AE0E5000E03BB /* NewYorkMedium-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-BlackItalic.otf"; sourceTree = "<group>"; };
+		CA67E7B32C6AE0E5000E03BB /* NewYorkMedium-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYorkMedium-Heavy.otf"; sourceTree = "<group>"; };
 		CA8056592C68F5D4002A8A4C /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		CA80565B2C68FBAA002A8A4C /* GoogleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
 		CAA335692C5A526500EA9700 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -181,7 +209,7 @@
 		CAB4959A2C2812BC000F0CF3 /* KotobaDaily */ = {
 			isa = PBXGroup;
 			children = (
-				CA67E7A22C692899000E03BB /* AuthCode.plist */,
+				CA67E7A42C692903000E03BB /* AuthCode.plist */,
 				CAB495D42C2863A2000F0CF3 /* Info.plist */,
 				CAB4959B2C2812BC000F0CF3 /* KotobaDailyApp.swift */,
 				CAB4959D2C2812BC000F0CF3 /* ContentView.swift */,
@@ -232,6 +260,20 @@
 		CAB495CF2C286168000F0CF3 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				CA67E7B12C6AE0E5000E03BB /* NewYorkMedium-Black.otf */,
+				CA67E7B22C6AE0E5000E03BB /* NewYorkMedium-BlackItalic.otf */,
+				CA67E7A82C6AE0E4000E03BB /* NewYorkMedium-Bold.otf */,
+				CA67E7A92C6AE0E4000E03BB /* NewYorkMedium-BoldItalic.otf */,
+				CA67E7B32C6AE0E5000E03BB /* NewYorkMedium-Heavy.otf */,
+				CA67E7AE2C6AE0E4000E03BB /* NewYorkMedium-HeavyItalic.otf */,
+				CA67E7AC2C6AE0E4000E03BB /* NewYorkMedium-Medium.otf */,
+				CA67E7B02C6AE0E4000E03BB /* NewYorkMedium-MediumItalic.otf */,
+				CA67E7AA2C6AE0E4000E03BB /* NewYorkMedium-Regular.otf */,
+				CA67E7AD2C6AE0E4000E03BB /* NewYorkMedium-RegularItalic.otf */,
+				CA67E7AB2C6AE0E4000E03BB /* NewYorkMedium-Semibold.otf */,
+				CA67E7AF2C6AE0E4000E03BB /* NewYorkMedium-SemiboldItalic.otf */,
+				CA67E7A72C6A40B5000E03BB /* Gen Jyuu Gothic Monospace Light.ttf */,
+				CA67E7A62C6A40AB000E03BB /* Gen Jyuu Gothic Monospace Medium.ttf */,
 				CAB495D72C28641E000F0CF3 /* Inter-Bold.otf */,
 				CAB495D52C2863EB000F0CF3 /* Inter-SemiBold.otf */,
 				CAB495DB2C286661000F0CF3 /* InterDisplay-Thin.otf */,
@@ -274,7 +316,7 @@
 				CAB495952C2812BC000F0CF3 /* Frameworks */,
 				CAB495962C2812BC000F0CF3 /* Resources */,
 				CAF69EFF2C4D096900690685 /* Embed Foundation Extensions */,
-				B5DA3D2A54681245B81CDD30 /* [CP] Embed Pods Frameworks */,
+				4B92E8022FE663C925F9CE3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,7 +354,7 @@
 				CAB495B02C2812BD000F0CF3 /* Sources */,
 				CAB495B12C2812BD000F0CF3 /* Frameworks */,
 				CAB495B22C2812BD000F0CF3 /* Resources */,
-				D9D027D99FBD5731E064D5CE /* [CP] Embed Pods Frameworks */,
+				B7B647A61311AA2379957E89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,12 +415,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB495A52C2812BD000F0CF3 /* Preview Assets.xcassets in Resources */,
+				CA67E7C12C6AEB03000E03BB /* NewYorkMedium-BlackItalic.otf in Resources */,
+				CA67E7B42C6AEADA000E03BB /* NewYorkMedium-MediumItalic.otf in Resources */,
+				CA67E7B52C6AEADD000E03BB /* NewYorkMedium-Black.otf in Resources */,
+				CA67E7BD2C6AEAF7000E03BB /* NewYorkMedium-HeavyItalic.otf in Resources */,
 				CAB495D82C28641E000F0CF3 /* Inter-Bold.otf in Resources */,
+				CA67E7B92C6AEAEC000E03BB /* NewYorkMedium-Semibold.otf in Resources */,
+				CA67E7BE2C6AEAFB000E03BB /* NewYorkMedium-Heavy.otf in Resources */,
+				CA67E7B72C6AEAE6000E03BB /* Gen Jyuu Gothic Monospace Light.ttf in Resources */,
 				CAB495DE2C2866C0000F0CF3 /* InterDisplay-Regular.otf in Resources */,
+				CA67E7BA2C6AEAEE000E03BB /* NewYorkMedium-RegularItalic.otf in Resources */,
 				CAB495D62C2863EB000F0CF3 /* Inter-SemiBold.otf in Resources */,
 				CAB495DC2C286661000F0CF3 /* InterDisplay-Thin.otf in Resources */,
+				CA67E7BB2C6AEAF0000E03BB /* NewYorkMedium-Regular.otf in Resources */,
 				CAB495A22C2812BD000F0CF3 /* Assets.xcassets in Resources */,
-				CA67E7A32C692899000E03BB /* AuthCode.plist in Resources */,
+				CA67E7A52C692903000E03BB /* AuthCode.plist in Resources */,
+				CA67E7C02C6AEB01000E03BB /* NewYorkMedium-Bold.otf in Resources */,
+				CA67E7BC2C6AEAF4000E03BB /* NewYorkMedium-Medium.otf in Resources */,
+				CA67E7B82C6AEAE9000E03BB /* NewYorkMedium-SemiboldItalic.otf in Resources */,
+				CA67E7BF2C6AEAFD000E03BB /* NewYorkMedium-BoldItalic.otf in Resources */,
+				CA67E7B62C6AEAE4000E03BB /* Gen Jyuu Gothic Monospace Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +455,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B5DA3D2A54681245B81CDD30 /* [CP] Embed Pods Frameworks */ = {
+		4B92E8022FE663C925F9CE3D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,6 +470,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KotobaDaily/Pods-KotobaDaily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B647A61311AA2379957E89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotobaDaily-KotobaDailyUITests/Pods-KotobaDaily-KotobaDailyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotobaDaily-KotobaDailyUITests/Pods-KotobaDaily-KotobaDailyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KotobaDaily-KotobaDailyUITests/Pods-KotobaDaily-KotobaDailyUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BFEF10925643C5F23BC6AD4E /* [CP] Check Pods Manifest.lock */ = {
@@ -458,23 +531,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D9D027D99FBD5731E064D5CE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KotobaDaily-KotobaDailyUITests/Pods-KotobaDaily-KotobaDailyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KotobaDaily-KotobaDailyUITests/Pods-KotobaDaily-KotobaDailyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KotobaDaily-KotobaDailyUITests/Pods-KotobaDaily-KotobaDailyUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F95649EFFAE162AC821183CF /* [CP] Check Pods Manifest.lock */ = {

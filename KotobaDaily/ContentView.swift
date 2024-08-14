@@ -12,13 +12,13 @@ struct ContentView: View {
     @State private var selectedTab = 1 // State property to manage the selected tab
     var body: some View {
             VStack {
-                toptext_Display()
+//                toptext_Display()
+//                
+//                Rectangle()
+//                    .fill(Color("LineColor"))
+//                    .frame(width: 450, height: 3, alignment: .center)
                 
-                Rectangle()
-                    .fill(Color("LineColor"))
-                    .frame(width: 450, height: 3, alignment: .center)
-                
-                Spacer()
+                //Spacer()
                 
                 TabView(selection: $selectedTab) { // Bind the selection to the state property
                     YesterdayView()

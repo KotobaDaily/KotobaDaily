@@ -8,6 +8,8 @@
 import UIKit
 import GoogleSignIn
 
+var currentUserID: String = ""
+
 class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication,
@@ -31,6 +33,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
                     print("Restored previous sign-in for user: \(user?.profile?.name ?? "Unknown User")")
                 }
             }
+            currentUserID = clientID
         } else {
             fatalError("Could not find CLIENT_ID in your plist file")
         }
