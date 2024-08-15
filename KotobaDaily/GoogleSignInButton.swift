@@ -56,6 +56,7 @@ struct GoogleSignInButtonView: View {
             }
             if let user = signInResult?.user {
                 self.user = user
+   
                 // Print the user's ID, email, and name
                 print("User ID: \(user.userID ?? "No ID")")
                 print("User Email: \(user.profile?.email ?? "No Email")")

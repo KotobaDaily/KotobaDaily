@@ -26,7 +26,7 @@ struct FavoriteView: View {
                 List(viewModel.favorites, id: \.Word) { favorite in
                     VStack(alignment: .leading) {
                         Text(favorite.Word)
-                            .font(.wotdWordText) // Assuming this is a custom font defined in your project
+                            .font(.wotdWordText) 
                         Text(favorite.Furigana)
                             .font(.furigana)
                         Text(favorite.Definition)

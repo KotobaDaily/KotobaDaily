@@ -31,9 +31,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
                 } else {
                     // User is signed in, update the UI or store user info as needed
                     print("Restored previous sign-in for user: \(user?.profile?.name ?? "Unknown User")")
+                    print(user)
                 }
             }
-            currentUserID = clientID
         } else {
             fatalError("Could not find CLIENT_ID in your plist file")
         }

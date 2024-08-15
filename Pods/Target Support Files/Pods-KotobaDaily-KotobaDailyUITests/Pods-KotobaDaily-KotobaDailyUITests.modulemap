@@ -1,6 +1,0 @@
-framework module Pods_KotobaDaily_KotobaDailyUITests {
-  umbrella header "Pods-KotobaDaily-KotobaDailyUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
