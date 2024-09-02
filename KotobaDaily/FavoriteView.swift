@@ -6,18 +6,19 @@
 //
 
 import SwiftUI
+import GoogleSignIn
 
 struct FavoriteView: View {
     @StateObject private var viewModel = FavoritesViewModel()
     
     var body: some View {
         VStack {
-            if currentUserID == "" {
+            if GIDSignIn.sharedInstance.currentUser == nil {
                 Text("You need to be logged in to use favorites")
                     .padding()
                     .font(.headline)
                     .frame(maxWidth: .infinity, alignment: .center)
-            } else if viewModel.favorites.isEmpty {
+            } else if viewModel.favorites.isEmpty  {
                 Text("No favorites found")
                     .padding()
                     .font(.headline)
@@ -40,10 +41,7 @@ struct FavoriteView: View {
             }
         }
         .onAppear {
-            print(currentUserID)
-            if currentUserID == "" {
-                viewModel.fetchFavorites(for: currentUserID)
-            }
+            viewModel.fetchFavorites()
         }
         .navigationTitle("Favorite Words")
     }

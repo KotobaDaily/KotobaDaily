@@ -12,6 +12,7 @@ struct WOTD: Codable { // Make sure these values match the JSON Entry fields
     let Example: String
     let Definition: String
     let Furigana: String
+    let PartOfSpeech: String?
 }
 
 struct FavoritesList: Codable {

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import GoogleSignIn
 
 struct YesterdayView: View {
     @StateObject private var pullWords = yesterdayWOTDViewModel()
@@ -36,7 +37,7 @@ struct YesterdayView: View {
                 .frame(maxWidth: .infinity)
             }
             VStack {
-                Text(pullWords.wordoftheday)
+                Text(pullWords.wordoftheday + " " + pullWords.partofspeech)
                     .font(.wotdWordText)
                     .padding(.horizontal, 16.0)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -76,11 +77,11 @@ struct YesterdayView: View {
     }
     
     private func isInFav() {
-        guard let url = URL(string: "http://localhost:8000/favorites?userID=\(currentUserID)") else {
+    guard let url = URL(string: "http://localhost:8000/favorites?userID=\(GIDSignIn.sharedInstance.currentUser?.userID ?? "")") else {
             print("Invalid URL")
             return
         }
-        
+    
         var request = URLRequest(url: url)
         request.httpMethod = "GET" // Use GET method as we are fetching data
 
@@ -98,7 +99,8 @@ struct YesterdayView: View {
             do {
                 let decoder = JSONDecoder()
                 let favorites = try decoder.decode([WOTD].self, from: data) // Decode the response as an array of WOTD
-                
+                print(favorites)
+                print(GIDSignIn.sharedInstance.currentUser?.userID)
                 // Check if the word of the day is in the favorites
                 DispatchQueue.main.async {
                     self.isFavorited = favorites.contains(where: { $0.Word == pullWords.wordoftheday })
@@ -120,7 +122,7 @@ struct YesterdayView: View {
         request.httpMethod = "POST" // Keep POST method as your server expects it
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
-        let body: [String: Any] = ["userID": currentUserID, "Word": pullWords.wordoftheday]
+        let body: [String: Any] = ["userID": GIDSignIn.sharedInstance.currentUser?.userID, "Word": pullWords.wordoftheday]
         request.httpBody = try? JSONSerialization.data(withJSONObject: body)
         
         URLSession.shared.dataTask(with: request) { data, response, error in
@@ -151,7 +153,7 @@ struct YesterdayView: View {
             request.httpMethod = "POST"
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
             
-            let body: [String: Any] = ["userID": currentUserID, "Word": pullWords.wordoftheday]
+            let body: [String: Any] = ["userID": GIDSignIn.sharedInstance.currentUser?.userID, "Word": pullWords.wordoftheday]
             request.httpBody = try? JSONSerialization.data(withJSONObject: body)
             
             URLSession.shared.dataTask(with: request) { data, response, error in

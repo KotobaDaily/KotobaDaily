@@ -9,22 +9,19 @@
 
 import SwiftUI
 import Combine
+import GoogleSignIn
 
 class WOTDViewModel: ObservableObject {
     @Published var words: [WOTD] = [] // Allows updates to be made and automatically trigger them uses our struct Word
     private var cancellable: AnyCancellable? // Allows the network request to be cancelled
     
-    @Published var wordoftheday = "寝不足" // Define variables to hold the fetched information from. @Published makes it update.
-    @Published var definition = "lack of sleep; insufficient sleep"
-    @Published var example = "寝不足の影響がではじめた"
-    @Published var furigana = "ねぶそく"
-    
-    private var hasFetched = false // Makes it so it only checks ONCE. Bandaid fix for now, requires user to restart
+    @Published var wordoftheday = "Loading..." // Define variables to hold the fetched information from. @Published makes it update.
+    @Published var definition = ""
+    @Published var example = ""
+    @Published var furigana = ""
+    @Published var partofspeech = ""
     
     func fetchWords() { // function for getting information from the URL
-        guard !hasFetched else { return }
-                hasFetched = true
-        
         guard let url = URL(string: "http://localhost:8000/words/") else { // let keyword is a const
             print("Invalid URL")
             return
@@ -48,15 +45,11 @@ class WOTDViewModel: ObservableObject {
                     self.definition = firstWord.Definition
                     self.example = firstWord.Example
                     self.furigana = firstWord.Furigana
+                    self.partofspeech = firstWord.PartOfSpeech ?? "N/A"
                 }
                 
             })
     }
-    
-    func refreshWords() { // USE THIS WHEN WANTING TO LET THEM MAKE ANOTHER API CALL
-            hasFetched = false
-            fetchWords()
-        }
     
     deinit {
         cancellable?.cancel() // Prevents memory leak
@@ -67,16 +60,14 @@ class yesterdayWOTDViewModel: ObservableObject {
     @Published var words: [WOTD] = [] // Allows updates to be made and automatically trigger them uses our struct Word
     private var cancellable: AnyCancellable? // Allows the network request to be cancelled
     
-    @Published var wordoftheday = "寝不足" // Define variables to hold the fetched information from. @Published makes it update.
-    @Published var definition = "lack of sleep; insufficient sleep"
-    @Published var example = "寝不足の影響がではじめた。"
-    @Published var furigana = "ねぶそく"
-    
-    private var hasFetched = false // Makes it so it only checks ONCE. Bandaid fix for now, requires user to restart
+    @Published var wordoftheday = "Loading..." // Define variables to hold the fetched information from. @Published makes it update.
+    @Published var definition = ""
+    @Published var example = ""
+    @Published var furigana = ""
+    @Published var partofspeech = ""
     
     func fetchWords() { // function for getting information from the URL
-        guard !hasFetched else { return }
-                hasFetched = true
+        if(GIDSignIn.sharedInstance.currentUser == nil) { return }
         
         guard let url = URL(string: "http://localhost:8000/yesterday/") else { // let keyword is a const
             print("Invalid URL")
@@ -101,15 +92,11 @@ class yesterdayWOTDViewModel: ObservableObject {
                     self.definition = firstWord.Definition
                     self.example = firstWord.Example
                     self.furigana = firstWord.Furigana
+                    self.partofspeech = firstWord.PartOfSpeech ?? "N/A"
                 }
                 
             })
     }
-    
-    func refreshWords() { // USE THIS WHEN WANTING TO LET THEM MAKE ANOTHER API CALL
-            hasFetched = false
-            fetchWords()
-        }
     
     deinit {
         cancellable?.cancel() // Prevents memory leak
@@ -120,8 +107,8 @@ class FavoritesViewModel: ObservableObject {
     @Published var favorites: [WOTD] = [] // Use WOTD instead of FavoritesList
     private var cancellable: AnyCancellable?
 
-    func fetchFavorites(for userID: String) {
-        guard let url = URL(string: "http://localhost:8000/favorites/?userID=\(userID)") else {
+    func fetchFavorites() {
+        guard let url = URL(string: "http://localhost:8000/favorites/?userID=\(GIDSignIn.sharedInstance.currentUser?.userID ?? "")") else {
             print("Invalid URL for fetching favorites")
             return
         }

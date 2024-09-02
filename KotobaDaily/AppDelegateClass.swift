@@ -8,8 +8,6 @@
 import UIKit
 import GoogleSignIn
 
-var currentUserID: String = ""
-
 class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication,
@@ -31,7 +29,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
                 } else {
                     // User is signed in, update the UI or store user info as needed
                     print("Restored previous sign-in for user: \(user?.profile?.name ?? "Unknown User")")
-                    print(user)
                 }
             }
         } else {
